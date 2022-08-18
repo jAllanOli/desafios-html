@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aboreto&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="./assets/icons8-contact-64.png" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/style.css">
+    <title>Contato</title>
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <legend>Entre em contato</legend>
+
+            <div>
+                <label for="assunto">Assunto:</label>
+                <select name="assunto" id="assunto">
+                    <option value="suporte">Suporte</option>
+                    <option value="sugestao">Sugestão</option>
+                    <option value="reclamacao">Reclamação</option>
+                </select>
+            </div>
+
+            <div>
+                <label for="name">Nome Completo:</label><br>
+                <input type="text" name="nome" id="nome" placeholder="Seu nome">
+            </div>
+
+            <div>
+                <label for="email">Email:</label><br>
+                <input type="text" name="email" id="email" placeholder="email@seudominio.com">
+
+            </div>
+
+            <div>
+                <label for="msg">Mensagem:</label><br>
+                <textarea name="msg" id="msg" cols="20" rows="5"></textarea>
+
+            </div>
+            <div class="mid-align">
+                <input type="checkbox" name="news" id="news">
+                <label for="news">Aceito receber novidades por email</label>
+            </div>
+            <button>enviar</button>
+        </fieldset>
+    </form>
+</body>
+
+</html>
